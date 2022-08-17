@@ -32,6 +32,7 @@ export function ServiceCard({ children, object }) {
         </p>
       </div>
       <Image
+        alt={object.name}
         className={blur + " duration-300"}
         src={object.image}
         layout="fill"

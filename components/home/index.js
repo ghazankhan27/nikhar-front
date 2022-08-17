@@ -24,8 +24,8 @@ export function HomeContent() {
     <HomeContainer>
       <HomeTitle></HomeTitle>
       <ServicesContainer>
-        {services.map((item) => (
-          <ServiceCard object={item}></ServiceCard>
+        {services.map((item, index) => (
+          <ServiceCard key={index} object={item}></ServiceCard>
         ))}
       </ServicesContainer>
       <BookAppointment></BookAppointment>
