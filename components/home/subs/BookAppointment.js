@@ -22,7 +22,7 @@ export function BookAppointment({ children }) {
     <div className="flex justify-center my-24">
       <div className="flex flex-col items-center">
         <p className="text-xl md:text-3xl my-10">Book an appointment now!</p>
-        <div className="flex flex-col space-y-4 md:space-x-8 md:flex-row">
+        <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-8 md:flex-row">
           <InputFieldForBooking
             type="text"
             label="Your Name"
