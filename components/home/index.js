@@ -1,6 +1,5 @@
 import { BookAppointment } from "./subs/BookAppointment";
 import { HomeContainer } from "./subs/HomeContainer";
-import { HomeTitle } from "./subs/HomeTitle";
 import { ServiceCard } from "./subs/ServiceCard";
 import { ServicesContainer } from "./subs/ServicesContainer";
 
@@ -22,7 +21,6 @@ export function HomeContent() {
 
   return (
     <HomeContainer>
-      <HomeTitle></HomeTitle>
       <ServicesContainer>
         {services.map((item, index) => (
           <ServiceCard key={index} object={item}></ServiceCard>

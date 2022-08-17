@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+:root {
+  --primary-font: "PT Sans", sans-serif;
+}
+
 .service-card {
   min-height: 60vh;
+}
+
+p {
+  font-family: var(--primary-font);
 }
